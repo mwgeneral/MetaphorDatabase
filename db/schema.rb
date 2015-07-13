@@ -11,13 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150712155207) do
+ActiveRecord::Schema.define(version: 20150712232835) do
 
   create_table "metaphors", force: true do |t|
     t.string   "line"
     t.string   "literal"
     t.string   "compare"
     t.string   "author"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "username"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
