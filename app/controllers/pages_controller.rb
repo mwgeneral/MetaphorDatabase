@@ -15,4 +15,9 @@ class PagesController < ApplicationController
     @metaphors = Metaphor
     print "form here"
   end
+
+  def index
+
+  end
+
 end
