@@ -1,18 +1,18 @@
 class PagesController < ApplicationController
   def home
     @user = User.new
-    @users = User.all
+    #@users = User.all
   end
 
   def about
-    @metaphors = Metaphor.all
+    @user = User.new
   end
 
   def login
   end
 
   def _form
-    @metaphors = Metaphor
+    @user = User.new
     print "form here"
   end
 
