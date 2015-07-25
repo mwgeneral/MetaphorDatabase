@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
     @user = User.new
+    @metaphor = Metaphor.new
     #@users = User.all
   end
 

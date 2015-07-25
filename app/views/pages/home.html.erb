@@ -6,3 +6,12 @@
 
 
 <%= link_to 'Create User (test)', pages_about_path, id: "about_link", remote: true %>
+
+
+
+
+<%= form_for @metaphor do |f| %>
+    <%= f.text_field :author %>
+    <%= f.text_field :literal%>
+    <%= f.submit %>
+<% end %>

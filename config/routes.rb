@@ -4,7 +4,7 @@ MetaphorDatabase::Application.routes.draw do
   get "pages/about"
   get "pages/login"
   resources :users
-
+  resources :metaphors
 
 
   # The priority is based upon order of creation: first created -> highest priority.
