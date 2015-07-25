@@ -1,0 +1,2 @@
+class MetaphorsController < ApplicationController
+end
